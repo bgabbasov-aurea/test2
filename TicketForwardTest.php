@@ -96,4 +96,9 @@ class SWIFT_TicketPostMock extends SWIFT_TicketPost
         // override
         return true;
     }
+    
+    public function someExtraFunction()
+    {
+        return false;
+    }
 }
