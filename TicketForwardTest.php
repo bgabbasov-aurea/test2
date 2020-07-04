@@ -106,4 +106,9 @@ class SWIFT_TicketPostMock extends SWIFT_TicketPost
     {
         return false;
     }
+    
+    public function someExtra3Function()
+    {
+        return false;
+    }
 }
